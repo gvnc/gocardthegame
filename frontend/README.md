@@ -1,38 +1,44 @@
-# CardCollectorFrontend
+# Frontend
 
-expo-cli global olarak kurulmus olmali
+This is the mobile client source code for GoCardTheGame which is developed in *ReactNative*.
 
-npm install -g expo-cli
+*NativeBase* is used for themes and components.
 
-Asagidaki komut ile kurulum tamamlanir. 
+*redux-persist* is used to persist redux state on the phone.
 
-npm install
+To compile the code, expo-cli is to be installed globally on the development environment.
 
-Bu islem de bittikten sonra proje start edilerek expo client ile test edilebilir.
+**npm install -g expo-cli**
 
-npm start
+Then just simply run install command as below.
 
-Proje build edilirken asagidaki komutlar kullanilir.
+**npm install**
 
-Bu komutlar kullanilmadan once, app.json dosyasindaki version degeri arttirilmalidir. Ayrica ios icin buildNumber ve android icin versionCode degerleri arttirilmalidir.
+After the install completed, start it as below to test with expo client.
 
-expo build:android
-expo build:ios
+**npm start**
 
-Bu komutlar servera dosyalari upload ederek, yine serverda build edilmesini saglar. Islem bittikten sonra console'da yazan download url veya build url uzerinden build dosyasi (apk veya ipa) indirilebilir.
+To build the project, expo commands are used. Version value must be changed in app.json before starting build. And buildNumber has to be increased for ios while versionCode has to be increased for android build.
 
-Apk dosyasi google playstore'a dogrudan yuklenebilirken, ipa dosyasi apple store'a dogrudan yuklenemez.
+**expo build:android**
+**expo build:ios**
 
-Yuklemek icin asagidaki komut kullanilabilir. Bu komut haricinde, xcode veya application loader da kullanilabilir.
+These build commands upload the js code to expo server and makes build. After the build operation completed, get the download url from command line and open it in a browser to download the apk or ipa file.
 
-expo upload:ios --apple-id guvenckazanci@yahoo.com --apple-id-password sdzv-zoac-dpro-yomy --app-name Go-Card --sku app.go.card.the.game --path ./archive.ipa 
+Apk file can directly be uploaded to google playstore, while you can not do the same with Ipa file for ios appstore.
 
-Eger path parametresi ile ipa dosyasinin locale'deki yeri belirtilmez ise, expo client build edilen son ipa'yi kendisi downlad ederek apple store'a yukler.
+To upload the Ipa file to appstore, use below command.
 
-Apple id icin verilen password, developer account'un passwordu degildir, app specific passworddur. 
+**expo upload:ios --apple-id guvenckazanci@yahoo.com --apple-id-password mypassword --app-name Go-Card --sku app.go.card.the.game --path ./archive.ipa **
 
-Bu passwordu almak icin https://appleid.apple.com login olunur.
+Ipa file can also be used to run in xcode or application loader. 
 
-Security altinda gozuken APP-SPECIFIC-PASSWORDS altindaki Generate Password linkine tiklanir.
+If the Ipa file path is not given in the expo upload command, expo client uploads the latest ipa file built.
 
-Acilan pencerede bir key girilerek sifre olusturulur. Olusturulan sifre upload komutundakki apple-id-password parametresi icin kullanilmalidir.
+Apple id password is not the password for developer account. It is app specific password which should be configured in developer account settings.
+
+To get this password, login on https://appleid.apple.com 
+
+Go to Generated Password link which shows in Security and APP-SPECIFIC-PASSWORDS.
+
+Enter a key value in the opened window and generate the password to use as apple-id-password.
