@@ -1,0 +1,96 @@
+{
+    "app": {
+        "name": "Collezionista di carte",
+        "play": "Gioca",
+        "networkIssue": "Network unreachable",
+        "retry": "Riprova",
+        "login": "Accedi",
+        "invalidCredentials": "nome utente/parola d'ordine non validi",
+        "loginWithFacebook": "Accedi con facebook",
+        "signinTitle": "Accedi",
+        "welcomeMessage": "Ciao",
+        "welcomeMessageHeader": "Connesso!",
+        "signUp": "Registrati Qui!",
+        "signUpMessage": "Non hai un account?",
+        "signupTitle": "Registrati!",
+        "emailAlreadyRegistered": "Email è già in uso!",
+        "alreadyHaveAccount": "Hai già un account? Accedi",
+        "playAnonymous": "Gioca Anonimo",
+        "fullname": "Nome e Cognome",
+        "username": "Indirizzo Email",
+        "password": "Parola d'ordine"
+    },
+    "intro": {
+        "title1": "Colleziona Carte",
+        "text1": "Ogni carta appartiene a una classe.\n\nComune, Raro o Unico",
+        "title2": "Gioca Tutti i Giorni",
+        "text2": "Ricevi biglietti gratuiti ogni giorno.\n\nLavora duro per vincere di più.",
+        "title3": "Completare Collezioni",
+        "text3": "Trovare carte uniche non è facile.\n\nMettiti alla prova !",
+        "nextLabel": "Prossimo",
+        "doneLabel": "Finito"
+    },
+    "tabBar": {
+        "collections": "Collezioni",
+        "cards": "Carte",
+        "profile": "Profilo"
+    },
+    "collections": {
+        "all": "Tutti",
+        "favoriteTitle": "Preferiti",
+        "favoriteText1": "Seleziona le tue raccolte preferite",
+        "favoriteText2": "Aggiungili alla tua lista",
+        "like": "Mi piace",
+        "cards": "Carte",
+        "info": "Info",
+        "category": "Categoria",
+        "collection": "Collezione",
+        "totalCards": "Carte Totali",
+        "openedCards": "Aperte",
+        "closedCards": "Rimanenti",
+        "completion": "Completamento",
+        "hint": {
+            "title": "Indiano",
+            "text": "ora puoi aprire le carte",
+            "gotoCards": "Vai alle Carte"
+        }
+    },
+    "cards": {
+        "noSelectedCollection": {
+            "title": "Imposta raccolte preferite",
+            "text1": "Seleziona le tue raccolte preferite e Aggiungili alla tua lista",
+            "text2": "Ritornare per richiesta di carte",
+            "gotoCollections": "Vai alle collezioni"
+        }, 
+        "screen": {
+            "cardsLeft": "Cartas rimanentes",
+            "text1": "Fai la tua selezione",
+            "text2": "Richiedi la tua carta",
+            "claimButton": "Richiesta",
+            "Daily": "Giornaliero", 
+            "Common": "Comune", 
+            "Rare": "Raro", 
+            "Unique": "Unico",
+            "card": "Carta",
+            "points": "Punti",
+            "class": "Classe",
+            "description": "Descrizione",
+            "watchAdvText1": "guarda alcuni adds,",
+            "watchAdvText2": "vinci 5 carte",
+            "watchAdvButton": "VINCI 5 CARTE"
+        }
+    },
+    "profile": {
+        "title": "il mio profilo",
+        "username": "username",
+        "gamePoints": "Punti di Gioco",
+        "commonCards": "Carte Comune",
+        "rareCards": "Carte Rare",
+        "uniqueCards": "Carte Uniche",
+        "leaderboard": "leaderboard",
+        "achievementInProgress": "Realizzazione in corso",
+        "achievementCompleted": "Realizzazione Completata",
+        "achievements": "Realizzaziones",
+        "stats": "Statistiche"
+    }
+}

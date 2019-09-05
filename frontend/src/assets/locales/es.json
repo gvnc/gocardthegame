@@ -1,0 +1,96 @@
+{
+    "app": {
+        "name": "coleccionista de Cartas",
+        "play": "Jugar",
+        "networkIssue": "Network Inalcanzable",
+        "retry": "Reintento",
+        "login": "Acceso",
+        "invalidCredentials": "Usuario/Contraseña invalido",
+        "loginWithFacebook": "Acceso con facebook",
+        "signinTitle": "Registrarse",
+        "welcomeMessage": "Hola",
+        "welcomeMessageHeader": "Conectado!",
+        "signUp": "Inscribirse Aqui !",
+        "signUpMessage": "¿No tienes una cuenta?",
+        "signupTitle": "Registrarse",
+        "emailAlreadyRegistered": "El correo electrónico ya está en uso!",
+        "alreadyHaveAccount": "¿Ya tienes una cuenta? Iniciar sesión",
+        "playAnonymous": "Jugar Anonimo",
+        "fullname": "Nombre y Apellido",
+        "username": "Dirección de correo electrónico",
+        "password": "Contraseña"
+    },
+    "intro": {
+        "title1": "Recoger Cartas",
+        "text1": "Cada carta pertenece a una clase.\n\nComún, Raro o Unico",
+        "title2": "Jugar Todos los Dias",
+        "text2": "Consigue cartas gratis todos los días.\n\nTrabaja duro para ganar más.",
+        "title3": "Completar Collecciones",
+        "text3": "Encontrar cartas únicas no es fácil.\n\nRetarte a ti mismo !",
+        "nextLabel": "Siguiente",
+        "doneLabel": "Terminado"
+    },
+    "tabBar": {
+        "collections": "Collecciones",
+        "cards": "Cartas",
+        "profile": "Perfil"
+    },
+    "collections": {
+        "all": "Todos",
+        "favoriteTitle": "Favoritos",
+        "favoriteText1": "Selecciona tus colecciones favoritas,",
+        "favoriteText2": "Agrégalos a tu lista",
+        "like": "Me Gusta",
+        "cards": "Cartas",
+        "info": "Info",
+        "category": "Categoría",
+        "collection": "Colección",
+        "totalCards": "Cartas Totales",
+        "openedCards": "Abiertas",
+        "closedCards": "Restantes",
+        "completion": "Terminación",
+        "hint": {
+            "title": "Indio",
+            "text": "puedes abrir cartas ahora",
+            "gotoCards": "Ir a Cartas"
+        }
+    },
+    "cards": {
+        "noSelectedCollection": {
+            "title": "Establecer colecciones favoritas",
+            "text1": "Selecciona tus colecciones favoritas y agrégalos a tu lista",
+            "text2": "Regreso reclamar tu carta",
+            "gotoCollections": "Ir a Collecciones"
+        }, 
+        "screen": {
+            "cardsLeft": "Cartas de sobra",
+            "text1": "Haz tu selección,",
+            "text2": "Reclama tu carta",
+            "claimButton": "Reclamación",
+            "Daily": "Diario", 
+            "Common": "Común", 
+            "Rare": "Raro", 
+            "Unique": "Unica",
+            "card": "Carta",
+            "points": "Puntos",
+            "class": "Clase",
+            "description": "Descripción",
+            "watchAdvText1": "ver algunos adds,",
+            "watchAdvText2": "ganar 5 cartas",
+            "watchAdvButton": "GANAR 5 CARTAS"
+        }
+    },
+    "profile": {
+        "title": "Mi Perfil",
+        "username": "Usuario",
+        "gamePoints": "Puntos de juego",
+        "commonCards": "Cartas Comunes",
+        "rareCards": "Cartas Raras",
+        "uniqueCards": "Cartas Uniqas",
+        "leaderboard": "Marcador",
+        "achievementInProgress": "Logró en curso",
+        "achievementCompleted": "Logró completado",
+        "achievements": "Los Logrós",
+        "stats": "Estadísticas"
+    }
+}

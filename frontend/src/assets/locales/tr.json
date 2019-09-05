@@ -1,0 +1,96 @@
+{
+    "app": {
+        "name": "Kart Topla",
+        "play": "Oyna",
+        "login": "Giriş",
+        "loginWithFacebook": "facebook ile giriş",
+        "signinTitle": "Giriş Yapın",
+        "welcomeMessage": "Merhaba",
+        "welcomeMessageHeader": "Giriş yaptın!",
+        "username": "email adres",
+        "password": "şifre",
+        "networkIssue": "Network problemi",
+        "retry": "Tekrar Dene",
+        "invalidCredentials": "Hatalı kullanıcı adı/şifre",
+        "signUp": "buradan kaydol !",
+        "signUpMessage": "Kayıtlı değil misiniz ?",
+        "signupTitle": "Kayıt Ol",
+        "emailAlreadyRegistered": "bu email adresi kullanımda !",
+        "alreadyHaveAccount": "Hesabınız var ise giriş yapın.",
+        "playAnonymous": "kaydolmadan oyna",
+        "fullname": "isim"
+    },
+    "intro": {
+        "title1": "Kart Topla",
+        "text1": "Her kart bir sınıfa aittir.\n\nYaygın, Nadir veya Eşsiz",
+        "title2": "Her Gün Oyna",
+        "text2": "Her gün bedava kart kazan.\n\nDaha fazlası için sıkı çalış.",
+        "title3": "Koleksiyonu Tamamla",
+        "text3": "Eşsiz kartları bulmak kolay değil.\n\nMeydan oku !",
+        "nextLabel": "Sonraki",
+        "doneLabel": "Bitir"
+    },
+    "tabBar": {
+        "collections": "Koleksiyon",
+        "cards": "Kart",
+        "profile": "Profil"
+    },
+    "collections": {
+        "all": "Tümü",
+        "favoriteTitle": "Favoriler",
+        "favoriteText1": "favori koleksiyonunu seç,",
+        "favoriteText2": "listene ekle",
+        "like": "Beğen",
+        "cards": "Kart",
+        "info": "Bilgi",
+        "category": "Kategori",
+        "collection": "Koleksiyon",
+        "totalCards": "Toplam Kart",
+        "openedCards": "Açılan",
+        "closedCards": "Kalan",
+        "completion": "Tamamlanma",
+        "hint": {
+            "title": "İpucu",
+            "text": "artık kart açabilirsiniz",
+            "gotoCards": "Kartlara Git"
+        }
+    },
+    "cards": {
+        "noSelectedCollection": {
+            "title": "Favori Koleksiyon Seç",
+            "text1": "koleksiyon seç, listene ekle",
+            "text2": "geri gelerek kartını aç",
+            "gotoCollections": "Koleksiyonlara Git"
+        }, 
+        "screen": {
+            "cardsLeft": "kart kaldı",
+            "text1": "seçimini yap,",
+            "text2": "kartını iste",
+            "claimButton": "KART ÇEK",
+            "Daily": "Günlük", 
+            "Common": "Yaygın", 
+            "Rare": "Nadir", 
+            "Unique": "Eşsiz",
+            "card": "Kart",
+            "points": "Puan",
+            "class": "Sınıf",
+            "description": "Açıklama",
+            "watchAdvText1": "video izleyerek,",
+            "watchAdvText2": "5 kart kazanın",
+            "watchAdvButton": "5 KART KAZAN"
+        }
+    },
+    "profile": {
+        "title": "profilim",
+        "username": "kullanıcı",
+        "gamePoints": "oyun puanı",
+        "commonCards": "yaygın kartlar",
+        "rareCards": "nadir kartlar",
+        "uniqueCards": "eşsiz kartlar",
+        "leaderboard": "liderlik",
+        "achievementInProgress": "Devam Ediyor",
+        "achievementCompleted": "Tamamlandı",
+        "achievements": "Başarılar",
+        "stats": "İstatistik"
+    }
+}

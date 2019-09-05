@@ -1,0 +1,96 @@
+{
+    "app": {
+        "name": "Card Collector",
+        "play": "Play",
+        "networkIssue": "Network unreachable",
+        "retry": "Retry",
+        "login": "Sign in",
+        "invalidCredentials": "Invalid username/password",
+        "loginWithFacebook": "login with facebook",
+        "signinTitle": "Sign in",
+        "welcomeMessage": "Hi",
+        "welcomeMessageHeader": "Logged in!",
+        "signUp": "sign up here !",
+        "signUpMessage": "Don't have an account ?",
+        "signupTitle": "Sign up",
+        "emailAlreadyRegistered": "email is already in use !",
+        "alreadyHaveAccount": "Already have an account? Sign in",
+        "playAnonymous": "play anonymous",
+        "fullname": "full name",
+        "username": "email address",
+        "password": "password"
+    },
+    "intro": {
+        "title1": "Collect Cards",
+        "text1": "Each card belongs to a class.\n\nCommon, Rare or Unique",
+        "title2": "Play Everyday",
+        "text2": "Get free cards everyday.\n\nWork hard to win more.",
+        "title3": "Complete Collections",
+        "text3": "Finding unique cards is not easy.\n\nChallenge yourself !",
+        "nextLabel": "Next",
+        "doneLabel": "Done"
+    },
+    "tabBar": {
+        "collections": "Collections",
+        "cards": "Cards",
+        "profile": "Profile"
+    },
+    "collections": {
+        "all": "All",
+        "favoriteTitle": "Favorites",
+        "favoriteText1": "select your favorite collections,",
+        "favoriteText2": "add them to your list",
+        "like": "Like",
+        "cards": "Cards",
+        "info": "Info",
+        "category": "Category",
+        "collection": "Collection",
+        "totalCards": "Total Cards",
+        "openedCards": "Opened",
+        "closedCards": "Remaining",
+        "completion": "Completion",
+        "hint": {
+            "title": "Hint",
+            "text": "you can open cards now",
+            "gotoCards": "Go to Cards"
+        }
+    },
+    "cards": {
+        "noSelectedCollection": {
+            "title": "Set Favorite Collections",
+            "text1": "select your collection, like it",
+            "text2": "come back to claim cards",
+            "gotoCollections": "Go to Collections"
+        }, 
+        "screen": {
+            "cardsLeft": "cards left",
+            "text1": "make your selection,",
+            "text2": "claim your card",
+            "claimButton": "CLAIM",
+            "Daily": "Daily", 
+            "Common": "Common", 
+            "Rare": "Rare", 
+            "Unique": "Unique",
+            "card": "Card",
+            "points": "Points",
+            "class": "Class",
+            "description": "Description",
+            "watchAdvText1": "watch some adds,",
+            "watchAdvText2": "win 5 cards",
+            "watchAdvButton": "WIN 5 CARDS"
+        }
+    },
+    "profile": {
+        "title": "my profile",
+        "username": "username",
+        "gamePoints": "game points",
+        "commonCards": "common cards",
+        "rareCards": "rare cards",
+        "uniqueCards": "unique cards",
+        "leaderboard": "leaderboard",
+        "achievementInProgress": "Achievement In Progress",
+        "achievementCompleted": "Achievement Completed",
+        "achievements": "Achievements",
+        "stats": "Stats"
+    }
+}

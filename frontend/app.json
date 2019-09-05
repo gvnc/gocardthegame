@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name":"GoCard",
+    "slug":"go-card",
+    "privacy":"public",
+    "sdkVersion": "31.0.0",
+    "version":"1.0.2",
+    "orientation":"portrait",
+    "facebookAppId":"1133368790178057",
+    "facebookDisplayName":"GoCard",
+    "facebookScheme": "fb1133368790178057",
+    "assetBundlePatterns": [
+      "./src/assets/images/*",
+      "./src/assets/images/intro/*",
+      "./src/assets/locales/*"
+    ],
+    "icon":"./src/assets/images/icon.png",
+    "splash": {
+      "backgroundColor": "#FEF6DF"
+    },
+    "ios": {
+      "bundleIdentifier": "app.go.card.the.game",
+      "buildNumber":"1.0.2"
+    },
+    "android": {
+      "package": "app.go.card.the.game",
+      "versionCode":5,
+      "permissions": []
+    }
+  }
+}
