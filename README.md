@@ -1,6 +1,12 @@
-This is card game where players can pull 5 cards a day to complete the collections they choose.
+This is a card game where players can pull upto 5 cards a day to complete the collections they choose. 
+
+They can pull more cards by using the achievements given in the game.
+
+https://gocardthegame.site/locales/support.html
 
 Mobile app is implemented with React-Native.
+
+Backend service is implemented in Java with SpringBoot.
 
 Game is uploaded both on ios and android stores.
 
