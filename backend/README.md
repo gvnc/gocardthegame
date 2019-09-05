@@ -1,15 +1,14 @@
-# CardCollector
+# Backend
 
-Aşağıdaki curl komutu ile token alınır.
+This is the backend service for GoCardTheGame which is developed in Java and SpringBoot.
 
-curl -d 'username=q@q.com&password=1' -X POST http://localhost:8080/users/login
+Backend services are secured with JWT token for the requests coming from mobile client.
 
-Buradan dönen token, aşağıdaki gibi kullanılarak servisler çağırılır.
+To test the token in development environment, below curl command works.
 
-curl -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJxQHEuY29tIiwiYXV0aCI6eyJhdXRob3JpdHkiOiJST0xFX1VTRVIifSwiaWF0IjoxNTMwMTMzODA5LCJleHAiOjE1MzAxMzc0MDl9.kBOHI4WYjmC0eMbZekjoWeTSs3jeTT_gnxZbL2nqGbI' -X POST http://localhost:8080/users/test 
+**curl -d 'username=gamuser@mygame.com&password=1' -X POST http://localhost:8080/users/login**
 
-Servisler proda alınırken, WebSecurityConfig.java içerisindeki aşağıdaki satırlar kaldırılmalıdır. 
-Testlerde zorluk çıkarmaması için geçici olarak eklendi. Ya da unit testler yazılarak burası olması gerektiği hale getirilebilir.
+User this token to test the rest service as such. 
 
-.antMatchers("/collections/*").permitAll() // for temporary !
-.antMatchers("/cards/*").permitAll() // for temporary !
+**curl -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJxQHEuY29tIiwiYXV0aCI6eyJhdXRob3JpdHkiOiJST0xFX1VTRVIifSwiaWF0IjoxNTMwMTMzODA5LCJleHAiOjE1MzAxMzc0MDl9.kBOHI4WYjmC0eMbZekjoWeTSs3jeTT_gnxZbL2nqGbI' -X POST http://localhost:8080/users/test**
+
