@@ -16,7 +16,7 @@ Use this token to test the rest service as such.
 
 IOS appstore policies require SSL support for the backend service. Submitted applications are not approved otherwise. 
 
-Therefore, I used LetsEncrypt to configure SSL on the server.
+Therefore, I used LetsEncrypt(certbot) to configure SSL on the server.
 
 certbot has to be installed before running below commands.
 
@@ -40,7 +40,7 @@ Then use the keystore file in application properties to configure ssl in spring.
 
 **server.ssl.keyAlias=tomcat**
 
-Be aware that the certbot certificates are valid for 3 months only. Although certbot renews the certificate automatically, springboot server is not aware of it. 
+Be aware of that the certbot certificates are valid for 3 months only. Although certbot renews the certificate automatically, springboot server is not aware of it. 
 
 Therefore, run below command again and restart the spring server every 3 months, or implement a cronjob script to do it for you.
 
