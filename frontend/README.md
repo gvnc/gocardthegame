@@ -38,8 +38,8 @@ If the IPA file path is not given in the expo upload command, expo client upload
 
 Apple id password is not the password for developer account. It is app specific password which should be configured in developer account settings.
 
-To get this password, login on https://appleid.apple.com 
+To get this password, login to https://appleid.apple.com 
 
 Go to Generated Password link which shows in Security and APP-SPECIFIC-PASSWORDS.
 
-Enter a key value in the opened window and generate the password to use as apple-id-password.
+Enter a key value and generate the password to use it as the apple-id-password.
