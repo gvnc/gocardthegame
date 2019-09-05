@@ -30,7 +30,7 @@ APK file can directly be uploaded to google playstore, while you can not do the 
 
 To upload the IPA file to appstore, use below command.
 
-**expo upload:ios --apple-id guvenckazanci@yahoo.com --apple-id-password mypassword --app-name Go-Card --sku app.go.card.the.game --path ./archive.ipa **
+**expo upload:ios --apple-id guvenckazanci@yahoo.com --apple-id-password mypassword --app-name Go-Card --sku app.go.card.the.game --path ./archive.ipa**
 
 IPA file can also be used to run in xcode or application loader. 
 
