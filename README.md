@@ -14,4 +14,4 @@ https://apps.apple.com/tr/app/go-card/id1447467696
 
 https://play.google.com/store/apps/details?id=app.go.card.the.game 
 
-![alt text](images/01.png)
+![alt text](images/01.png | width=300)
