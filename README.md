@@ -14,4 +14,4 @@ https://apps.apple.com/tr/app/go-card/id1447467696
 
 https://play.google.com/store/apps/details?id=app.go.card.the.game 
 
-![alt text](https://cdn-amk.sozcu.com.tr/amk-resimler/2019/09/iecrop/aykut-kocaman-21_9297339_16_9_1567715570-880x495.jpg)
+![alt text](images/01.png)
